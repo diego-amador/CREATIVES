@@ -47,7 +47,7 @@ fullbutton.addEventListener("click", function (evt) {
                         /* IE/Edge */
                         elem.msRequestFullscreen();
                     }
-                    fullbutton.setAttribute("src", "../exit_fullscreen.png");
+                    fullbutton.setAttribute("src", "textures/exit_fullscreen.png");
                     fullscreen = 1;
                 } else {
                     if (document.exitFullscreen) {
@@ -59,7 +59,7 @@ fullbutton.addEventListener("click", function (evt) {
                     } else if (document.msExitFullscreen) {
                         document.msExitFullscreen();
                     }
-                    fullbutton.setAttribute("src", "../fullscreen.png");
+                    fullbutton.setAttribute("src", "textures/fullscreen.png");
                     fullscreen = 0;
                 }
 
