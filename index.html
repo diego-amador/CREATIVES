@@ -25,8 +25,11 @@ marker.addEventListener("markerLost", function (evt) {
 markerFound = 0;
 });
 
-Model_0.addEventListener("click", function(evt){
+Model_0.addEventListener("mouseup", function(evt){
+    if(markerFound==1)
+    {
     open("https://www.instagram.com/creattives/?igshid=p7wmudwbaju6");
+    }
 });
 fullbutton.addEventListener("click", function (evt) {
                 if (fullscreen == 0) {
